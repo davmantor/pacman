@@ -18,8 +18,12 @@ def depthFirstSearch(problem):
     ```
     """
 
+    print("Start: %s" % (str(problem.startingState())))
+    print("Is the start a goal?: %s" % (problem.isGoal(problem.startingState())))
+    print("Start's successors: %s" % (problem.successorStates(problem.startingState())))
+
     # *** Your Code Here ***
-    raise NotImplementedError()
+    return ""
 
 def breadthFirstSearch(problem):
     """
